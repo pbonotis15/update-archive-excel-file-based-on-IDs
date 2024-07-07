@@ -25,6 +25,11 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.gitignore/
+
+# Ignore Excel files
+*.xlsx
+*.xls
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

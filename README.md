@@ -1,5 +1,4 @@
-
-# SR ID Merger Script
+# Archive excel file updater based on new IDs Script
 
 ## Description
 
@@ -22,6 +21,12 @@ This Python script is designed to merge new SR IDs from a daily received Excel f
 ## Installation
 
 1. Clone the repository or download the script.
+
+```sh
+git clone https://github.com/pbonotis15/update-archive-excel-file-based-on-IDs.git
+cd your-repo-name
+```
+
 2. Install the required Python packages:
 
 ```bash
@@ -33,7 +38,7 @@ pip install pandas openpyxl
 1. Run the script:
 
 ```bash
-python sr_id_merger.py
+python update_archive.py
 ```
 
 2. A file selection dialog will appear. Select the existing final_results file.
@@ -47,13 +52,3 @@ python sr_id_merger.py
 ```python
 sheets_to_check = ["Aggregated Data", "Summary of Actions", "Last Drop"]
 ```
-
-## Author
-
-Panos Bonotis
-
-- [LinkedIn](https://www.linkedin.com/in/panagiotis-bonotis-351a7996/)
-
-## License
-
-This project is licensed under the MIT License.
