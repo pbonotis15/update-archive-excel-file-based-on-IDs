@@ -31,8 +31,8 @@ def append_new_sr_ids(existing_file_path, new_file_path, sheets):
             updated_df.to_excel(writer, sheet_name=sheet, index=False)
 
 if __name__ == "__main__":
-    existing_file_path = get_file_path("Select the existing final_results file")
-    new_file_path = get_file_path("Select the new final_results file")
+    existing_file_path = get_file_path("Select the 'Archive' existing final_results file")
+    new_file_path = get_file_path("Select the new final_results file with the new entries")
 
     # Specify the sheets you want to check
     sheets_to_check = ["Aggregated Data", "Summary of Actions", "Last Drop"]
